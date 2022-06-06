@@ -62,5 +62,6 @@ internal class Solucion_tallerKtTest2 {
 
     @Test
     fun valorPresente() {
+        assertEquals(49257, taller_1.valorPresente(50000.0,0.5,3.0))
     }
 }

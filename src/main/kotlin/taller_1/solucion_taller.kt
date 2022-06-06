@@ -278,11 +278,11 @@ valor_Presente -->Double --> Valor Presenbte
 
 */
 
-fun valorPresente(c:Double, t:Double, n:Double):Double{
-    return (c/ (1 + t).pow(n))
+fun valorPresente(c:Double, t:Double, n:Double):Long{
+    var vp =c/ Math.pow(1.0+(t/100), n)
+    return (Math.round(vp))
 }
 fun main(){
-
 
 
 }

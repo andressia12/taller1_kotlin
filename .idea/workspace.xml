@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f4f4128-6b7d-4518-8120-76a67f0c6a85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/taller_1/Solucion_tallerKtTest2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/taller_1/solucion_taller.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/taller_1/solucion_taller.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/taller_1/Solucion_tallerKtTest2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/taller_1/Solucion_tallerKtTest2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <recent name="taller_1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Solucion_tallerKtTest2.volumenCono">
+  <component name="RunManager" selected="JUnit.Solucion_tallerKtTest2.valorPresente">
     <configuration name="Solucion_tallerKtTest2.litroDeAguaContaminada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taller1_kotlin" />
       <extension name="coverage">
@@ -88,6 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solucion_tallerKtTest2.valorPresente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller1_kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taller_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taller_1" />
+      <option name="MAIN_CLASS_NAME" value="taller_1.Solucion_tallerKtTest2" />
+      <option name="METHOD_NAME" value="valorPresente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solucion_tallerKtTest2.volumenCono" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taller1_kotlin" />
       <extension name="coverage">
@@ -104,22 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solucion_tallerKtTest.areaDelTriangulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="taller1_kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taller_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="taller_1" />
-      <option name="MAIN_CLASS_NAME" value="taller_1.Solucion_tallerKtTest" />
-      <option name="METHOD_NAME" value="areaDelTriangulo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solucion_tallerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="taller_1.Solucion_tallerKt" />
       <module name="taller1_kotlin" />
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Solucion_tallerKtTest2.valorPresente" />
+        <item itemvalue="Kotlin.Solucion_tallerKt" />
         <item itemvalue="JUnit.Solucion_tallerKtTest2.volumenCono" />
         <item itemvalue="JUnit.Solucion_tallerKtTest2.litroDeAguaContaminada" />
         <item itemvalue="JUnit.Solucion_tallerKtTest2.menorEdad" />
-        <item itemvalue="Kotlin.Solucion_tallerKt" />
-        <item itemvalue="JUnit.Solucion_tallerKtTest.areaDelTriangulo" />
       </list>
     </recent_temporary>
   </component>
@@ -153,11 +154,19 @@
       <option name="project" value="LOCAL" />
       <updated>1654463020330</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se agregan pruebas para algunas funciones">
+      <created>1654468021019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654468021019</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="desarrollo del taller1 primeras funciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="desarrollo del taller1 primeras funciones" />
+    <MESSAGE value="Se agregan pruebas para algunas funciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregan pruebas para algunas funciones" />
   </component>
 </project>
